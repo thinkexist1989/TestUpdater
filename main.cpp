@@ -6,15 +6,17 @@
 
 int main(int argc, char *argv[])
 {
-    QString url = "https://github.com/thinkexist1989/TestUpdater/config/updates.json";
+    QApplication a(argc, argv);
+
+    QString url = "https://github.com/thinkexist1989/TestUpdater/blob/main/config/updates.json";
 
     QSimpleUpdater::getInstance()->setNotifyOnUpdate(url, true);
     QSimpleUpdater::getInstance()->setNotifyOnFinish(url, false);
 
+    QSimpleUpdater::getInstance()->setDownloaderEnabled(url, true);
+
     QSimpleUpdater::getInstance()->checkForUpdates(url);
 
-
-    QApplication a(argc, argv);
     MainWindow w;
     w.show();
     return a.exec();
