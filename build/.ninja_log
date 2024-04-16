@@ -1,0 +1,21 @@
+# ninja log v5
+0	164	1713260982051395102	QSimpleUpdater/QSimpleUpdater_autogen/timestamp	7ea6f97ac61f0cbe
+0	164	1713260982051395102	QSimpleUpdater/QSimpleUpdater_autogen/mocs_compilation.cpp	7ea6f97ac61f0cbe
+0	164	1713260982051395102	/home/think/Documents/GitHub/TestUpdater/build/QSimpleUpdater/QSimpleUpdater_autogen/timestamp	7ea6f97ac61f0cbe
+0	164	1713260982051395102	/home/think/Documents/GitHub/TestUpdater/build/QSimpleUpdater/QSimpleUpdater_autogen/mocs_compilation.cpp	7ea6f97ac61f0cbe
+164	172	1713260982063395244	QSimpleUpdater/QSimpleUpdater_autogen/OICXTEDBQS/qrc_qsimpleupdater.cpp	9e1f755e011d5ab1
+164	172	1713260982063395244	/home/think/Documents/GitHub/TestUpdater/build/QSimpleUpdater/QSimpleUpdater_autogen/OICXTEDBQS/qrc_qsimpleupdater.cpp	9e1f755e011d5ab1
+172	181	1713260982071395338	QSimpleUpdater/CMakeFiles/QSimpleUpdater.dir/QSimpleUpdater_autogen/mocs_compilation.cpp.o	dccfacbe8ad6d1ff
+173	199	1713260982091395572	QSimpleUpdater/CMakeFiles/QSimpleUpdater.dir/QSimpleUpdater_autogen/OICXTEDBQS/qrc_qsimpleupdater.cpp.o	8f4bba62793696b
+173	1172	1713260983063407012	QSimpleUpdater/CMakeFiles/QSimpleUpdater.dir/src/QSimpleUpdater.cpp.o	c2dd02eea9f806ba
+172	1465	1713260983355410436	QSimpleUpdater/CMakeFiles/QSimpleUpdater.dir/src/Downloader.cpp.o	5ca31802df6e0cd
+173	1608	1713260983499412126	QSimpleUpdater/CMakeFiles/QSimpleUpdater.dir/src/Updater.cpp.o	538bdde280d52c65
+1608	1824	1713260983711414612	QSimpleUpdater/libQSimpleUpdater.so	d4575faea1c92e10
+1824	1942	1713260983827415973	TestUpdater_autogen/timestamp	5225d0c4dd0d8e40
+1824	1942	1713260983827415973	TestUpdater_autogen/mocs_compilation.cpp	5225d0c4dd0d8e40
+1824	1942	1713260983827415973	/home/think/Documents/GitHub/TestUpdater/build/TestUpdater_autogen/timestamp	5225d0c4dd0d8e40
+1824	1942	1713260983827415973	/home/think/Documents/GitHub/TestUpdater/build/TestUpdater_autogen/mocs_compilation.cpp	5225d0c4dd0d8e40
+1942	2689	1713260984579424769	CMakeFiles/TestUpdater.dir/TestUpdater_autogen/mocs_compilation.cpp.o	358ed8c27793b18b
+1943	2778	1713260984671425844	CMakeFiles/TestUpdater.dir/main.cpp.o	f3bd8e8fd5032533
+1943	2798	1713260984687426031	CMakeFiles/TestUpdater.dir/mainwindow.cpp.o	1911f424bf0f0a9d
+2798	2971	1713260984859428042	TestUpdater	74e9220049f9f07c

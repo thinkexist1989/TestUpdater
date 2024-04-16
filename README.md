@@ -1,0 +1,2 @@
+# TestUpdater
+ Test QSimpleUpdater
