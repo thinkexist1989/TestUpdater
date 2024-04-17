@@ -8,14 +8,19 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    QString url = "https://github.com/thinkexist1989/TestUpdater/blob/main/config/updates.json";
+    QString url = "https://raw.githubusercontent.com/thinkexist1989/TestUpdater/main/config/updates.json";
 
-    QSimpleUpdater::getInstance()->setNotifyOnUpdate(url, true);
-    QSimpleUpdater::getInstance()->setNotifyOnFinish(url, false);
+    auto updater = QSimpleUpdater::getInstance();
 
-    QSimpleUpdater::getInstance()->setDownloaderEnabled(url, true);
+    updater->setModuleVersion(url, "0.4");
+    // updater->setModuleName(url, "updates");
+    updater->setNotifyOnUpdate(url, true);
+    updater->setNotifyOnFinish(url, true);
 
-    QSimpleUpdater::getInstance()->checkForUpdates(url);
+    updater->setDownloaderEnabled(url, true);
+    updater->setMandatoryUpdate(url, true);
+
+    updater->checkForUpdates(url);
 
     MainWindow w;
     w.show();
